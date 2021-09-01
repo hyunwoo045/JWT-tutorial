@@ -1,9 +1,22 @@
-var express = require('express');
-var router = express.Router();
+const express = require("express");
+const router = express.Router();
+const url = require("url");
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+/* SIGN IN ROUTER
+/users/auth/register
+{
+  username,
+  password 
+}
+*/
+router.post("/auth/login", async function (req, res) {
+  await setTimeout(() => {
+    console.log("1");
+  }, 3000);
+
+  await console.log(2);
+
+  await res.send("OK");
 });
 
 module.exports = router;
