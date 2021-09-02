@@ -21,8 +21,8 @@ Velopert 님의 강의를 참고로 만듭니다.
   - [동기화 (Async/Await와 Promise)](<#동기화-(Async/Await와-Promise)>)
 - [JWT 토큰 발급](#JWT-토큰-발급)
 - [JWT 토큰 검증](#JWT-토큰-검증)
-
-<br />
+- [마치며](#마치며)
+  <br />
 
 ---
 
@@ -367,10 +367,16 @@ router.get("/check", async (req, res) => {
 
 유효하지 않은 토큰을 넣었을 때의 결과 모습
 
-![유효하지 않은 토큰](./images/token_verify_2)
+![유효하지 않은 토큰](./images/token_verify_2.png)
 
 토큰을 넣지 않았을 때 (로그인 한 기록이 없을 때)의 결과 모습
 
-![로그인 안됨](./images/token_verify_3)
+![로그인 안됨](./images/token_verify_3.png)
 
 <br/>
+
+## 마치며
+
+JWT을 이용한 로그인 API 간단 구현해보기 프로젝트는 여기까지 하도록 하겠습니다. TOKEN 검증 후의 동작들은 다시 나의 작은 게시판 과제에 적용해 보도록 하겠습니다.
+
+[my-simple-forum repository](https://github.com/hyunwoo045/my-simple-forum)
