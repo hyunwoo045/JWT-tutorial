@@ -22,4 +22,4 @@ Velopert 님의 강의를 참고로 만듭니다.
 
 자세한 사용 기록은 아래 블로그에서 확인하실 수 있습니다.
 
-[]()
+[JSON Web Token - 로그인 세션 유지하기](https://hyunwoo045.github.io/nodejs/express/2021/09/22/JWT.html)
