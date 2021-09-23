@@ -15,9 +15,9 @@ const JWTController = {
   },
   verify: (token) => {
     return new Promise((resolve, reject) => {
-      if (!token) reject("not logged in");
+      if (!token) reject("NOT LOGGED IN");
       jwt.verify(token, secret, (err, decoded) => {
-        if (err) reject("verify error");
+        if (err) reject("INVALID_TOKEN");
         resolve(decoded);
       });
     });
